@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>自己紹介</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>ポートフォリオ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>こんにちは、[あなたの名前]です！</h1>
-        <p>ウェブ開発者 / デザイナー / あなたの職業</p>
-    </header>
-    <main>
-        <section class="about-me">
-            <h2>私について</h2>
-            <p>ここに自己紹介文を入力します。あなたの経歴、趣味、好きなことなどを書いてください。</p>
-        </section>
-        <section class="portfolio">
-            <h2>ポートフォリオ</h2>
-            <div class="portfolio-item">
-                <img src="path/to/image1.jpg" alt="Project 1">
-                <p>プロジェクト1の説明</p>
+    <div class="container">
+        <div class="left-section">
+            <img src="../images/Pro.png" alt="mainImage" class="pro-image">
+        </div>
+        <div class="right-section">
+            <h1>Nice to meet you.</h1>
+            <div class="icons">
+                <a href="https://github.com/Nakami0930" target="_blank">
+                    <img src="../images/github-mark.png" alt="GitHub">
+                </a>
+                <a href="https://x.com/E_Nakamimi666" target="_blank">
+                    <img src="../images/logo-black.png" alt="X (Twitter)">
+                </a>
             </div>
-            <div class="portfolio-item">
-                <img src="path/to/image2.jpg" alt="Project 2">
-                <p>プロジェクト2の説明</p>
+            <p class="intro-text">
+                仲田 未来<br>
+                Web開発にチャレンジ中の見習い学生エンジニアです。<br>
+                趣味は、音楽を聴くことです。ドルオタしてます。
+            </p>
+            <h2>SKILLS</h2>
+            <div class="skills">
+                <img src="../images/HTML.png" alt="HTML5">
+                <img src="../images/JS.png" alt="JavaScript">
+                <img src="../images/Python.png" alt="Python">
+                <img src="../images/Java.png" alt="Java">
             </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2024 [あなたの名前]. All rights reserved.</p>
-    </footer>
-    <script src="script.js"></script>
+        </div>
+    </div>
 </body>
 </html>
